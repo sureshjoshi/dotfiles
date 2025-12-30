@@ -3,6 +3,11 @@
 ### Prerequisites
 
 - Neovim 0.12+
+- curl
+- git
+- ripgrep
+- tar
+- tree-sitter-cli
 
 ### Keybindings
 

@@ -1,0 +1,26 @@
+{
+  "plugins": {
+    "blink.cmp": {
+      "rev": "b19413d214068f316c78978b08264ed1c41830ec",
+      "src": "https://github.com/saghen/blink.cmp",
+      "version": "1.0.0 - 2.0.0"
+    },
+    "dexco.nvim": {
+      "rev": "a2aff8fc056da4cac33df6d6ff335979da992e7f",
+      "src": "https://github.com/robotpajamas/dexco.nvim"
+    },
+    "nvim-treesitter": {
+      "rev": "7efc1b58a8061d29786860006c7257c90a5196dc",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter"
+    },
+    "nvim-treesitter-context": {
+      "rev": "64dd4cf3f6fd0ab17622c5ce15c91fc539c3f24a",
+      "src": "https://github.com/nvim-treesitter/nvim-treesitter-context"
+    },
+    "snacks.nvim": {
+      "rev": "a4e46becca45eb65c73a388634b1ce8aad629ae0",
+      "src": "https://github.com/folke/snacks.nvim",
+      "version": "2.30.0 - 3.0.0"
+    }
+  }
+}

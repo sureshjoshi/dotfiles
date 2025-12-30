@@ -1,6 +1,7 @@
 local termfeatures = vim.g.termfeatures or {}
 termfeatures.osc52 = false
 vim.g.termfeatures = termfeatures
+vim.opt.termguicolors = true
 
 vim.opt.number = true               -- Line numbers
 vim.opt.relativenumber = true       -- Relative line numbers
@@ -32,6 +33,10 @@ vim.opt.winborder = "rounded" -- Use rounded borders for windows
 vim.g.mapleader = " "
 vim.g.maplocalleader = "\\"
 
+-- Handle new filetypes
+vim.filetype.add({ extension = { jai = "jai" } })
+
+-- Register all other plugins
 require("plugins.completion")
 require("plugins.snacks")
 require("plugins.themes")

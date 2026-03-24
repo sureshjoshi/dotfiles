@@ -1,6 +1,6 @@
 -- TODO: Review for opts (noremap, silent, etc)
 
-local map = map
+local map = vim.keymap.set
 
 map("i", "jk", "<ESC>", { desc = "Alternate escape for Insert mode" });
 map("n", "<Esc>", ":nohlsearch<CR>", {desc = "Remove highlights on escape" })

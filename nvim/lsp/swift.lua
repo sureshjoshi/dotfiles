@@ -3,7 +3,7 @@ return {
     filetypes = { "swift" },
     root_markers = { 
         "*.xcodeproj", 
-        "*.xcworkspace,
+        "*.xcworkspace",
         "Package.swift",
         ".git" 
     },

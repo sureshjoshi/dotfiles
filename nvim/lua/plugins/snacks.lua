@@ -1,5 +1,5 @@
 vim.pack.add({
-     { src = "https://github.com/folke/snacks.nvim", version = vim.version.range("^2.30") }
+     { src = "https://github.com/folke/snacks.nvim", version = vim.version.range("^2.31") }
 })
 
 require("snacks").setup({
@@ -10,7 +10,7 @@ require("snacks").setup({
     -- dashboard = { enabled = true },
     explorer = { enabled = true },
     indent = {
-        enabled = true, 
+        enabled = true,
         animate = { enabled = false },
     },
     -- input = { enabled = true },
@@ -20,10 +20,11 @@ require("snacks").setup({
     -- scope = { enabled = true },
     -- scroll = { enabled = true },
     -- statuscolumn = { enabled = true },
+    -- toggle = { enabled = true },
     -- words = { enabled = true },
 })
 
-vim.keymap.set("n", "<leader><space>", function() Snacks.picker.smart() end, { desc = "Smart find files" })
+vim.keymap.set("n", "<leader><space>", function() Snacks.picker.files() end, { desc = "Smart find files" })
 vim.keymap.set("n", "<leader>e", function ()
      local explorer_pickers = Snacks.picker.get({ source = "explorer" })
             for _, v in pairs(explorer_pickers) do

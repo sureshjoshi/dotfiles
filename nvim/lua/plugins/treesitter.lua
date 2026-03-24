@@ -3,7 +3,7 @@ vim.pack.add({
     "https://github.com/nvim-treesitter/nvim-treesitter-context"
 })
 
-local languages = { "c", "cpp", "html", "jai", "javascript", "lua", "python", "regex", "rust", "svelte", "typescript" }
+local languages = { "c", "cpp", "css", "html", "jai", "javascript", "lua", "python", "regex", "rust", "svelte", "swift", "typescript" }
 
 require("nvim-treesitter.config").setup({
     ensure_installed = languages,

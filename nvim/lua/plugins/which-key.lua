@@ -1,0 +1,6 @@
+
+vim.pack.add({
+     { src = "https://github.com/folke/which-key.nvim", version = vim.version.range("^3.17") }
+})
+
+require("which-key").setup()

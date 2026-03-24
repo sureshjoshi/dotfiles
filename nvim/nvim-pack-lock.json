@@ -9,6 +9,10 @@
       "rev": "a2aff8fc056da4cac33df6d6ff335979da992e7f",
       "src": "https://github.com/robotpajamas/dexco.nvim"
     },
+    "mini.icons": {
+      "rev": "5b9076dae1bfbe47ba4a14bc8b967cde0ab5d77e",
+      "src": "https://github.com/nvim-mini/mini.icons"
+    },
     "nvim-treesitter": {
       "rev": "7efc1b58a8061d29786860006c7257c90a5196dc",
       "src": "https://github.com/nvim-treesitter/nvim-treesitter"
@@ -20,7 +24,12 @@
     "snacks.nvim": {
       "rev": "a4e46becca45eb65c73a388634b1ce8aad629ae0",
       "src": "https://github.com/folke/snacks.nvim",
-      "version": "2.30.0 - 3.0.0"
+      "version": "2.31.0 - 3.0.0"
+    },
+    "which-key.nvim": {
+      "rev": "fcbf4eea17cb299c02557d576f0d568878e354a4",
+      "src": "https://github.com/folke/which-key.nvim",
+      "version": "3.17.0 - 4.0.0"
     }
   }
 }

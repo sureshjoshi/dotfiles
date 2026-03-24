@@ -25,8 +25,8 @@ return {
                 version = "LuaJIT",
             },
             workspace = {
-                library = { vim.env.VIMRUNTIME },
                 checkThirdParty = false,
+                library = { vim.env.VIMRUNTIME },
             },
         },
     },

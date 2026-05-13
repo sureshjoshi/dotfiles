@@ -36,7 +36,7 @@ map("i", ".", ".<c-g>u")
 map("i", ";", ";<c-g>u")
 map("i", ":", ":<c-g>u")
 
--- Auto-close pairs
+-- Auto-close pairs -- TODO: I actually don't like this, as it throws me off
 map("i", "'", "''<left>")
 map("i", "`", "``<left>")
 map("i", '"', '""<left>')

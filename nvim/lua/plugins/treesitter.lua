@@ -34,24 +34,24 @@ vim.api.nvim_create_autocmd("FileType", {
     end,
 })
 
-vim.api.nvim_create_autocmd("User", {
-    desc = "Add Jai tree-sitter",
-	group = vim.api.nvim_create_augroup("nvim-treesitter-filetype-jai", { clear = true }),
-    pattern = "TSUpdate",
-    callback = function()
-        require("nvim-treesitter.parsers").jai = {
-            install_info = {
-                url = "https://github.com/robotpajamas/tree-sitter-jai",
-                branch = "shenanigans",
-                queries = "queries/",
-            },
-            -- install_info = {
-            --     path = '~/Development/tree-sitter-jai',
-            --     location = 'parser',
-            --     generate = true,
-            --     generate_from_json = false,
-            --     queries = 'queries/',
-            -- },
-        }
-    end,
-})
+-- vim.api.nvim_create_autocmd("User", {
+--     desc = "Add Jai tree-sitter",
+-- 	group = vim.api.nvim_create_augroup("nvim-treesitter-filetype-jai", { clear = true }),
+--     pattern = "TSUpdate",
+--     callback = function()
+--         require("nvim-treesitter.parsers").jai = {
+--             -- install_info = {
+--             --     url = "https://github.com/robotpajamas/tree-sitter-jai",
+--             --     branch = "main",
+--             --     queries = "queries/",
+--             -- },
+--             install_info = {
+--                 path = '~/Development/tree-sitter-jai/parser/jai.so',
+--                 location = 'parser',
+--                 generate = false,
+--                 generate_from_json = false,
+--                 queries = 'queries/',
+--             },
+--         }
+--     end,
+-- })

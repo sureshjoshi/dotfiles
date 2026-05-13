@@ -14,12 +14,28 @@ require("snacks").setup({
         animate = { enabled = false },
     },
     -- input = { enabled = true },
-    picker = { enabled = true },
-    -- notifier = { enabled = true },
+    picker = {
+        sources = {
+            explorer = {
+                auto_close = true, -- close explorer when focusing elsewhere
+                hidden = true, -- show hidden files
+                ignored = true, -- show gitignored files
+                layout = {
+                    preview = true,
+                },
+                matcher = {
+                    fuzzy = true,
+                    sort_empty = false,
+                },
+            }
+        }
+    },
+    notifier = { enabled = true },
     -- quickfile = { enabled = true },
     -- scope = { enabled = true },
     -- scroll = { enabled = true },
-    -- statuscolumn = { enabled = true },
+    statuscolumn = { enabled = true },
+    -- terminal = { enabled = true },
     -- toggle = { enabled = true },
     -- words = { enabled = true },
 })
